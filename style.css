@@ -44,10 +44,10 @@ body {
 
 /*-- HERO --*/
 .hero {
-  background-image: url(/image/hero1.png);
+  background-image: url(/image/hero.png);
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .logo img {
@@ -57,12 +57,15 @@ body {
 
 .hero-text h1 {
   position: absolute;
-  top: 420px;
-  left: 220px;
+  top: 530px;
+  left: 0px;
+  padding-left: 220px;
   color: white;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 40px;
   text-transform: uppercase;
+  background: black;
+  width: 100%;
 }
 
 .box1 {
@@ -148,7 +151,6 @@ body {
 .ev2-img,
 .ev3-img {
   position: relative;
-  background: cyan;
   height: 400px;
   width: 100%;
 }
@@ -169,11 +171,12 @@ body {
 .ev2-title h2,
 .ev3-title h2 {
   position: absolute;
-  left: 220px;
+  left: 0px;
+  padding-left: 220px;
   margin-top: 340px;
   color: white;
   background: black;
-  width: auto;
+  width: 100%;
   font-size: 35px;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   text-transform: uppercase;
@@ -280,8 +283,8 @@ body {
 .exbox2-pic,
 .exbox3-pic {
   position: absolute;
-  width: 420px;
-  height: 362px;
+  width: 400px;
+  height: 350px;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
 }
 
@@ -301,12 +304,12 @@ body {
 
 .exbox1-pic {
   left: 800px;
-  top: 103px;
+  top: 217px;
 }
 
 /*-- EXBOX2 --*/
 .exbox2 {
-  background: black;
+  background: linear-gradient(90deg, #13547a 0%, #80d0c7 100%);
   height: 652px;
 }
 
@@ -415,8 +418,8 @@ body {
 .ex5pic {
   position: absolute;
   background-color: #c4c4c4;
-  width: 420px;
-  height: 362px;
+  width: 400px;
+  height: 350px;
   left: 220px;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
   margin-top: 76px;
@@ -472,9 +475,10 @@ body {
 
 /*-- VISIT-US --*/
 .vhero {
+  background: url(/image/visit-us_hero.png);
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 450px;
 }
 
 .vstitle {
@@ -512,13 +516,6 @@ body {
   left: 800px;
 }
 
-.ab-img {
-  position: relative;
-  background: #cccccc;
-  width: 100%;
-  height: 400px;
-}
-
 .ab-logo {
   position: absolute;
   top: 320px;
@@ -534,11 +531,11 @@ body {
   height: 477px;
 }
 
-.v3 {
-  background: black;
+.v2 {
+  background: linear-gradient(90deg, #13547a 0%, #80d0c7 100%);
 }
 
-.v2,
+.v3,
 .v4,
 .v5 {
   background-color: white;
@@ -567,7 +564,7 @@ body {
 /*-- V1 --*/
 .openinghours {
   position: absolute;
-  color: black;
+  color: white;
   left: 220px;
   top: 80px;
 }
@@ -580,7 +577,7 @@ body {
 /*-- V2 --*/
 .location {
   position: absolute;
-  color: black;
+  color: white;
   left: 800px;
   top: 80px;
 }
@@ -589,7 +586,7 @@ body {
   width: 370px;
   line-height: 30px;
   font-size: 20px;
-  color: black;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
@@ -601,7 +598,7 @@ body {
 /*-- V3 --*/
 .admission {
   position: absolute;
-  color: white;
+  color: black;
   left: 220px;
   top: 53px;
 }
@@ -614,7 +611,7 @@ body {
 
 .access {
   position: absolute;
-  color: white;
+  color: black;
   left: 800px;
   top: 53px;
 }
@@ -737,8 +734,8 @@ body {
 .gi3-pic {
   position: absolute;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
-  width: 420px;
-  height: 362px;
+  width: 400px;
+  height: 350px;
 }
 
 .gi1-pic,
@@ -785,7 +782,7 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  top: 105px;
+  top: 78px;
 }
 
 .about {
@@ -815,7 +812,7 @@ body {
 .contact {
   position: absolute;
   color: white;
-  top: 105px;
+  top: 78px;
 }
 
 .fhours {
@@ -836,9 +833,9 @@ body {
   position: absolute;
   color: white;
   border: 1px solid white;
-  width: 1000px;
+  width: 100%;
   top: 396px;
-  left: 220px;
+  left: 0px;
 }
 
 .copyright {
@@ -850,28 +847,6 @@ body {
 }
 
 /*-- MEDIA-SCREEN --*/
-@media screen and (max-width: 300px) {
-  .topnav a:not(:first-child) {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .topnav.responsive {
-    position: relative;
-  }
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
 @media screen and (max-width: 450px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -895,12 +870,13 @@ body {
   }
   .logo img {
     left: 30px;
-    top: 400px;
+    top: 500px;
   }
   .hero-text h1 {
     text-align: center;
+    padding-left: 0;
     left: 0;
-    top: 150px;
+    top: 250px;
     font-size: 35px;
   }
   .box1 {
@@ -954,10 +930,7 @@ body {
     width: 90%;
     font-size: 18px;
   }
-  .ev1-btn {
-    left: 20px;
-    top: 200px;
-  }
+  .ev1-btn,
   .ev2-btn {
     left: 20px;
     top: 200px;
@@ -984,30 +957,22 @@ body {
   .exbox1 {
     height: 1300px;
   }
-  .exbox1-text {
+  .exbox2,
+  .exbox3 {
+    height: 850px;
+  }
+  .exbox1-text,
+  .exbox2-text,
+  .exbox3-text {
     margin-left: 20px;
-    top: 600px;
+    top: 390px;
   }
   .exbox1-pic,
   .exbox2-pic,
   .exbox3-pic {
-    left: 0;
-    top: 0;
+    left: 8px;
+    top: 8px;
     box-shadow: none;
-  }
-  .exbox2 {
-    height: 850px;
-  }
-  .exbox2-text {
-    margin-left: 20px;
-    top: 390px;
-  }
-  .exbox3 {
-    height: 850px;
-  }
-  .exbox3-text {
-    margin-left: 20px;
-    top: 390px;
   }
   .exhtitle {
     left: 20px;
@@ -1019,7 +984,7 @@ body {
   .ex3,
   .ex4,
   .ex5 {
-    height: 900px;
+    height: 850px;
   }
   .ex5 {
     margin-bottom: 50px;
@@ -1029,8 +994,8 @@ body {
   .ex3pic,
   .ex4pic,
   .ex5pic {
-    margin-top: 0;
-    left: 0;
+    margin-top: 8px;
+    left: 8px;
   }
   .ex1text,
   .ex2text,
@@ -1038,7 +1003,7 @@ body {
   .ex4text,
   .ex5text {
     left: 20px;
-    top: 400px;
+    top: 380px;
   }
   .ex1text h2,
   .ex2text h2,
@@ -1055,25 +1020,27 @@ body {
     font-size: 18px;
     width: 95%;
   }
-  .ex1-hyper a {
-    left: 20px;
-    top: 730px;
-  }
-  .ex3-hyper a {
-    left: 20px;
-    top: 770px;
-  }
-  .ex4-hyper a {
-    left: 20px;
-    top: 640px;
-  }
-  .ex2-hyper a {
-    left: 20px;
-    top: 700px;
-  }
+  .ex1-hyper a,
+  .ex2-hyper a,
+  .ex3-hyper a,
+  .ex4-hyper a,
   .ex5-hyper a {
     left: 20px;
-    top: 760px;
+  }
+  .ex1-hyper a {
+    top: 710px;
+  }
+  .ex2-hyper a {
+    top: 680px;
+  }
+  .ex3-hyper a {
+    top: 750px;
+  }
+  .ex4-hyper a {
+    top: 620px;
+  }
+  .ex5-hyper a {
+    top: 740px;
   }
   .vhero {
     display: none;
@@ -1082,7 +1049,7 @@ body {
     left: 20px;
   }
   .about1 {
-    height: 1000px;
+    height: 900px;
   }
   .ab1-text,
   .ab2-text {
@@ -1093,14 +1060,15 @@ body {
     top: 0;
   }
   .ab2-text {
-    top: 530px;
+    top: 480px;
   }
-  .ab-img {
-    display: none;
+  .ab1-text p,
+  .ab2-text p {
+    font-size: 18px;
   }
   .ab-logo {
     left: 0;
-    top: 890px;
+    top: 830px;
   }
   .v2,
   .v3,
@@ -1158,16 +1126,20 @@ body {
     text-align: center;
   }
   .get-involved {
-    left: 0;
+    left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   .gi1,
   .gi2,
   .gi3 {
-    height: 1000px;
+    height: 950px;
+    width: 100%;
   }
   .gi1-text,
   .gi2-text,
   .gi3-text {
+    width: 100%;
     left: 20px;
   }
   .gi1-text {
@@ -1193,8 +1165,8 @@ body {
   .gi1-pic,
   .gi2-pic,
   .gi3-pic {
-    margin-top: 0;
-    left: 0;
+    margin-top: 8px;
+    left: 8px;
     box-shadow: none;
   }
   .footer {
@@ -1232,12 +1204,12 @@ body {
     width: 100%;
   }
   .copyright {
-    left: 20px;
+    left: 10px;
     top: 950px;
     text-align: center;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
   .topnav a:not(:first-child) {
     display: none;
   }
@@ -1257,28 +1229,182 @@ body {
     float: none;
     display: block;
     text-align: left;
+  }
+  .box1 p {
+    font-size: 18px;
+  }
+  .ev1-title h2,
+  .ev2-title h2,
+  .ev3-title h2 {
+    font-size: 25px;
+  }
+  .ev1-text,
+  .ev2-text,
+  .ev3-text {
+    font-size: 18px;
+  }
+  .exbox1-text p,
+  .exbox2-text p,
+  .exbox3-text p {
+    font-size: 18px;
   }
 }
-
-@media screen and (max-width: 750px) {
-  .topnav a:not(:first-child) {
-    display: none;
+@media screen and (max-width: 1024px) {
+  .hero-text h1 {
+    padding-left: 50px;
+    top: 520px;
   }
-  .topnav a.icon {
-    float: right;
-    display: block;
+  .box1 {
+    height: 752px;
   }
-  .topnav.responsive {
-    position: relative;
+  .box1-frame {
+    left: 50px;
+    width: 90%;
+    box-shadow: none;
   }
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
+  .box1 h2 {
+    left: 50px;
+    top: 150px;
   }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
+  .box1 p {
+    left: 50px;
+    width: 80%;
+    top: 40px;
+  }
+  .box1-btn {
+    left: 50px;
+    top: 240px;
+  }
+  .special-events img {
+    left: 50px;
+  }
+  .ev1-title h2,
+  .ev2-title h2,
+  .ev3-title h2 {
+    background: black;
+    left: 0px;
+    margin-top: 330px;
+    padding-left: 50px;
+  }
+  .ev1-text,
+  .ev2-text,
+  .ev3-text {
+    left: 50px;
+    width: 90%;
+  }
+  .ev1-btn {
+    top: 150px;
+  }
+  .ev1-btn,
+  .ev2-btn,
+  .ev3-btn {
+    left: 50px;
+  }
+  .exploretitle {
+    left: 50px;
+  }
+  .exbox1-text,
+  .exbox3-text {
+    margin-left: 50px;
+  }
+  .exbox2-text {
+    margin-left: 530px;
+  }
+  .exbox2-pic {
+    left: 50px;
+  }
+  .exbox1-pic,
+  .exbox3-pic {
+    left: 580px;
+  }
+  .exhtitle {
+    left: 50px;
+  }
+  .ex1pic,
+  .ex2pic,
+  .ex3pic,
+  .ex4pic,
+  .ex5pic {
+    left: 50px;
+  }
+  .ex1text,
+  .ex2text,
+  .ex3text,
+  .ex4text,
+  .ex5text {
+    left: 500px;
+  }
+  .ex1-hyper a,
+  .ex2-hyper a,
+  .ex3-hyper a,
+  .ex4-hyper a,
+  .ex5-hyper a {
+    left: 500px;
+  }
+  .vstitle {
+    left: 50px;
+  }
+  .ab1-text {
+    left: 50px;
+  }
+  .ab2-text {
+    left: 550px;
+  }
+  .ab-logo {
+    left: 550px;
+  }
+  .openinghours {
+    left: 50px;
+  }
+  .location {
+    left: 550px;
+  }
+  .admission {
+    left: 50px;
+  }
+  .access {
+    left: 550px;
+  }
+  .shop {
+    left: 50px;
+  }
+  .foodndrink {
+    left: 50px;
+  }
+  .v4pic,
+  .v5pic {
+    left: 550px;
+  }
+  .get-involved {
+    left: 50px;
+  }
+  .gi1-text,
+  .gi3-text {
+    left: 50px;
+  }
+  .gi2-text {
+    left: 500px;
+  }
+  .gi1-pic,
+  .gi3-pic {
+    left: 580px;
+  }
+  .gi2-pic {
+    left: 50px;
+  }
+  .about {
+    left: 50px;
+  }
+  .socials {
+    left: 220px;
+  }
+  .fhours {
+    left: 410px;
+  }
+  .contact {
+    left: 720px;
+  }
+  .copyright {
+    left: 340px;
   }
 }
