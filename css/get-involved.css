@@ -1,0 +1,108 @@
+/*-- GET-INVOLVED --*/
+.get-involved {
+  position: relative;
+  width: 424px;
+  height: 106px;
+  left: 220px;
+  margin-top: 72px;
+  margin-bottom: 28px;
+}
+
+.gi1,
+.gi2,
+.gi3 {
+  position: relative;
+  width: 100%;
+  height: 652px;
+}
+
+.gi1,
+.gi3 {
+  background-color: white;
+}
+
+.gi2 {
+  background: linear-gradient(90deg, #13547a 0%, #80d0c7 100%);
+}
+
+.gi1-text,
+.gi3-text {
+  position: absolute;
+  color: black;
+  left: 220px;
+}
+
+.gi2-text {
+  position: absolute;
+  color: white;
+  left: 722px;
+}
+
+.gi1-text h2,
+.gi2-text h2,
+.gi3-text h2 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.gi1-text p,
+.gi2-text p,
+.gi3-text p {
+  width: 500px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.gi1-text p,
+.gi3-text p {
+  color: black;
+  margin-top: 20px;
+}
+
+.gi2-text p {
+  color: white;
+  margin-top: 20px;
+}
+
+.gi1-text {
+  margin-top: 138px;
+}
+
+.gi2-text {
+  margin-top: 123px;
+}
+
+.gi3-text {
+  margin-top: 162px;
+}
+
+.gi1-pic,
+.gi2-pic,
+.gi3-pic {
+  position: absolute;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  width: 400px;
+  height: 350px;
+}
+
+.gi1-pic,
+.gi2-pic,
+.gi3-pic {
+  position: absolute;
+}
+
+.gi1-pic {
+  left: 800px;
+  margin-top: 138px;
+}
+
+.gi2-pic {
+  left: 220px;
+  margin-top: 143px;
+}
+
+.gi3-pic {
+  left: 800px;
+  margin-top: 139px;
+}

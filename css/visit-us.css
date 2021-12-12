@@ -1,0 +1,166 @@
+/*-- VISIT-US --*/
+.vhero {
+  position: relative;
+}
+
+.vs-title {
+  margin-top: 60px;
+  margin-left: 10%;
+  width: auto;
+  height: auto;
+}
+
+.about1 {
+  position: relative;
+  background: white;
+  width: 100%;
+  height: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ab1-text,
+.ab2-text {
+  position: absolute;
+  color: black;
+  line-height: 30px;
+  width: 450px;
+  top: 29px;
+  font-size: 20px;
+}
+
+.ab1-text {
+  left: 10%;
+}
+
+.ab2-text {
+  left: 55%;
+}
+
+.ab-logo {
+  position: absolute;
+  top: 320px;
+  left: 53%;
+}
+
+.v2,
+.v3,
+.v4,
+.v5 {
+  position: relative;
+  width: 100%;
+  height: 477px;
+}
+
+.v2 {
+  background: linear-gradient(90deg, #13547a 0%, #80d0c7 100%);
+}
+
+.v3,
+.v4,
+.v5 {
+  background-color: white;
+}
+
+.v4pic,
+.v5pic {
+  position: absolute;
+  width: 450px;
+  height: 362px;
+  left: 60%;
+  top: 58px;
+}
+
+.openinghours h2,
+.location h2,
+.admission h2,
+.access h2,
+.shop h2,
+.foodndrink h2 {
+  text-transform: uppercase;
+}
+
+/*-- OPENING HOURS --*/
+.openinghours {
+  position: absolute;
+  color: white;
+  left: 10%;
+  top: 80px;
+}
+
+.openinghours p {
+  line-height: 40px;
+  font-size: 20px;
+}
+
+/*-- LOCATION --*/
+.location {
+  position: absolute;
+  color: white;
+  left: 55%;
+  top: 80px;
+}
+
+.location a {
+  width: 370px;
+  line-height: 30px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+/*-- ADMISSION --*/
+.admission {
+  position: absolute;
+  color: black;
+  left: 10%;
+  top: 53px;
+}
+
+.admission p {
+  width: 450px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+/* ACCESS */
+.access {
+  position: absolute;
+  color: black;
+  left: 55%;
+  top: 53px;
+}
+
+.access p {
+  width: 450px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+/*-- SHOP --*/
+.shop {
+  position: absolute;
+  color: black;
+  left: 10%;
+  top: 140px;
+}
+
+.shop p {
+  width: 450px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+/*-- FOOD AND DRINK --*/
+.foodndrink {
+  position: absolute;
+  color: black;
+  left: 10%;
+  margin-top: 163px;
+}
+
+.foodndrink p {
+  width: 450px;
+  line-height: 30px;
+  font-size: 20px;
+}

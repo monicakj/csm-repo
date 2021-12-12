@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/visit-us.css" rel="stylesheet">
+    <link href="/css/footer.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Community Science Museum | Visit Us</title>
   </head>
@@ -12,7 +14,16 @@
   <body>
 
      <!---- HEADER ---->
-     <header>  
+     <header>
+
+      <!-- LOGO -->
+      <div class="logo">
+        <a href="/index.html">
+          <img src="/image/logo.png" alt="community science museum logo">
+        </a>
+      </div>
+      
+      <!-- TOPNAV -->
       <div class="topnav" id="myTopnav">
       <a href="index.html">Home</a>
       <a href="explore.html">Explore</a>
@@ -25,10 +36,12 @@
   </header>
 
     <!---- VISIT-US ---->
-    <div class="vhero"></div>
+    <div class="vhero">
+      <img src="/image/visit-us_hero.png" alt="museum hero image" class="responsive">
+    </div>
 
     <!---- V1 ---->
-    <div class="vstitle">
+    <div class="vs-title">
       <img src="/image/vstitle.png" alt="visit us title">
     </div>
 
@@ -106,54 +119,63 @@
     </div>
 
 
-    <!---- FOOTER ---->
-    <footer>
-      <div class="footer">
-        <div class="about">
-          <h3>Page</h3>
-          <a href="explore.html">Explore</a>
-          <a href="exhibitions.html">Exhibitions</a>
-          <a href="visit-us.html">Visit Us</a>
-          <a href="get-involved.html">Get Involved</a>
+<!---- FOOTER ---->
+<footer>
+  <div class="content">
+    <div class="left box">
+      <div class="upper">
+        <div class="topic">About</div>
+        <p>Come join us at the Community Science Museum where we’re committed to making science accessible to all!
+          <br><br> The
+          aim of our museum is to create a space where everyone can experience the wonders of our discoveries and
+          perhaps even
+          ignite a lifelong passion to continue the exploration of the world around us.</p>
+      </div>
+      <div class="lower">
+        <div class="topic">Contact us</div>
+        <p>Community Sience Museum <br>
+          Storgata 28 <br>
+          4307 Sandnes <br><br>
+        </p>
+
+        <div class="phone">
+          <a href="#"><i class="fas fa-phone-volume"></i>+47 123 456 78</a>
         </div>
-    
-        <div class="socials">
-          <h3>Socials</h3>
-          <a href="#">Facebook</a>
-          <a href="#">Instagram</a>
-          <a href="#">Twitter</a>
-        </div>
-    
-        <div class="fhours">
-          <h3>Opening Hours</h3>
-          <p>Monday: Closed <br>
-            Tuesday: 10:00 – 16:00 <br>
-            Wednesday: 10:00 – 16:00 <br>
-            Thursday: 10:00 – 16:00 <br>
-            Friday: 10:00 – 19:00 <br>
-            Saturday: 9:00 – 16:00 <br>
-            Sunday: 9:00 – 13:00 <br>
-          </p>
-        </div>
-    
-        <div class="contact">
-          <h3>Contact</h3>
-          <p>Community Sience Museum <br>
-            Storgata 28 <br>
-            4307 Sandnes <br><br>
-            E-mail: contact@csm.no <br>
-            Phone: +47 123 456 78 <br>
-            </p>
-        </div>
-    
-        <div class="fline"></div>
-    
-        <div class="copyright">
-          <p>© 2021 - Community Science Museum</p>
+
+        <div class="email">
+          <a href="#"><i class="fas fa-envelope"></i>contact@csm.com</a>
         </div>
       </div>
-    </footer>
-
+    </div>
+    <div class="middle box">
+      <div class="topic">Opening Hours</div>
+      <p>Monday: Closed <br>
+        Tuesday: 10:00 – 16:00 <br>
+        Wednesday: 10:00 – 16:00 <br>
+        Thursday: 10:00 – 16:00 <br>
+        Friday: 10:00 – 19:00 <br>
+        Saturday: 9:00 – 16:00 <br>
+        Sunday: 9:00 – 13:00 <br>
+      </p>
+    </div>
+    <div class="right box">
+      <div class="topic">Subscribe</div>
+      <form action="#">
+        <input type="text" placeholder="Enter e-mail address">
+        <input type="submit" name="" value="Send">
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="bottom">
+    <p>Copyright © 2020 - <a href="#">Community Science Museum.</a> All rights reserved.</p>
+  </div>
+</footer>
+    
     <script>
       function myFunction() {
   var x = document.getElementById("myTopnav");

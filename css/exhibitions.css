@@ -1,0 +1,129 @@
+/*-- EXHIBITIONS --*/
+.exhtitle {
+  position: relative;
+  margin-top: 72px;
+  left: 220px;
+}
+.ex1,
+.ex2,
+.ex3,
+.ex4,
+.ex5 {
+  position: relative;
+  width: 100%;
+  height: 514px;
+}
+.ex1 {
+  background-color: white;
+  margin-top: 0px;
+}
+
+.ex2,
+.ex4 {
+  background-color: white;
+}
+
+.ex3 {
+  background: linear-gradient(90deg, #13547a 0%, #80d0c7 100%);
+}
+
+.ex5 {
+  background-color: white;
+  margin-bottom: 152px;
+}
+
+.ex1text,
+.ex2text,
+.ex3text,
+.ex4text,
+.ex5text {
+  position: absolute;
+  left: 685px;
+  top: 67px;
+}
+
+.ex3text {
+  color: white;
+}
+
+.ex1text h2,
+.ex2text h2,
+.ex3text h2,
+.ex4text h2,
+.ex5text h2 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.ex1text p,
+.ex2text p,
+.ex3text p,
+.ex4text p,
+.ex5text p {
+  width: 450px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.ex1pic,
+.ex2pic,
+.ex3pic,
+.ex4pic,
+.ex5pic {
+  position: absolute;
+  background-color: #c4c4c4;
+  width: 400px;
+  height: 350px;
+  left: 220px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  margin-top: 76px;
+}
+
+.ex1-hyper a,
+.ex2-hyper a,
+.ex3-hyper a,
+.ex4-hyper a,
+.ex5-hyper a {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  left: 685px;
+  font-size: 20px;
+}
+
+.ex1-hyper a,
+.ex2-hyper a,
+.ex4-hyper a,
+.ex5-hyper a {
+  color: #16778c;
+}
+
+.ex3-hyper a {
+  color: #07f2db;
+}
+
+.ex1-hyper a:hover,
+.ex2-hyper a:hover,
+.ex3-hyper a:hover,
+.ex4-hyper a:hover,
+.ex5-hyper a:hover {
+  color: black;
+}
+
+.ex1-hyper a,
+.ex3-hyper a {
+  top: 380px;
+}
+
+.ex2-hyper a {
+  top: 350px;
+}
+
+.ex4-hyper a {
+  top: 320px;
+}
+
+.ex5-hyper a {
+  top: 410px;
+}
