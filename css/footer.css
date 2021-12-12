@@ -100,12 +100,25 @@ footer .bottom {
   text-align: right;
   color: #d9d9d9;
   padding: 0 40px 5px 0;
+  /* font-weight: bold; */
 }
 footer .bottom a {
   color: cyan;
+  text-decoration: none;
+  font-weight: bold;
 }
 footer a {
   transition: all 0.3s ease;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.contact a:hover {
+  color: cyan;
 }
 
 /* MEDIA QUERIES */

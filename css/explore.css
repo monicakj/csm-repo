@@ -3,7 +3,7 @@
   position: relative;
   width: 276px;
   height: 106px;
-  left: 220px;
+  left: 10%;
   margin-top: 72px;
 }
 
@@ -27,7 +27,8 @@
 .exbox3-text p {
   font-size: 20px;
   line-height: 25px;
-  width: 450px;
+  /* width: 450px; */
+  width: 500px;
   margin-top: 20px;
 }
 
@@ -50,12 +51,12 @@
 .exbox1-text {
   position: absolute;
   color: black;
-  margin-left: 220px;
+  margin-left: 10%;
   top: 80px;
 }
 
 .exbox1-pic {
-  left: 800px;
+  left: 900px;
   top: 217px;
 }
 
@@ -68,12 +69,12 @@
 .exbox2-text {
   position: absolute;
   color: white;
-  margin-left: 800px;
+  left: 800px;
   top: 160px;
 }
 
 .exbox2-pic {
-  left: 220px;
+  left: 10%;
   top: 145px;
 }
 
@@ -86,11 +87,11 @@
 .exbox3-text {
   position: absolute;
   color: black;
-  margin-left: 220px;
+  margin-left: 10%;
   top: 199px;
 }
 
 .exbox3-pic {
-  left: 800px;
+  left: 900px;
   top: 140px;
 }

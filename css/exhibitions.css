@@ -2,7 +2,8 @@
 .exhtitle {
   position: relative;
   margin-top: 72px;
-  left: 220px;
+  left: 10%;
+  width: fit-content;
 }
 .ex1,
 .ex2,
@@ -15,7 +16,6 @@
 }
 .ex1 {
   background-color: white;
-  margin-top: 0px;
 }
 
 .ex2,
@@ -38,8 +38,8 @@
 .ex4text,
 .ex5text {
   position: absolute;
-  left: 685px;
-  top: 67px;
+  left: 690px;
+  top: 70px;
 }
 
 .ex3text {
@@ -54,6 +54,7 @@
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   font-size: 35px;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .ex1text p,
@@ -75,7 +76,8 @@
   background-color: #c4c4c4;
   width: 400px;
   height: 350px;
-  left: 220px;
+  /* left: 220px; */
+  left: 10%;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
   margin-top: 76px;
 }
@@ -100,7 +102,7 @@
 }
 
 .ex3-hyper a {
-  color: #07f2db;
+  color: white;
 }
 
 .ex1-hyper a:hover,
