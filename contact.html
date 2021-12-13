@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Contact Page of The Community Science Museum">
     <link href="/css/style.css" rel="stylesheet">
     <link href="/css/contact.css" rel="stylesheet">
     <link href="/css/footer.css" rel="stylesheet">
@@ -34,50 +35,61 @@
         </div>
         
         <main>
-            <!-- CONTACT -->
-            <section class="header">
-                <div class="contact-header"></div>
-            </section>
-
             <!-- CONTACT FORM -->
-            <div class="container">
-                <h2>Contact Us</h2>
-                <form action="#">
+            <div class="contact-container">
+                <h2>Contact Us <i class="fas fa-pen"></i></h2>
+
+                    <form id="contactForm">
+
+                    <!-- NAME -->
                     <div class="row">
                         <div class="col-25">
                             <label for="fname">Full Name</label>
                         </div>
                         <div class="col-75">
-                            <input type="text" id="fullname" name="fullname" placeholder="Your name">
+                            <input type="text" id="fname" name="fname" placeholder="Your name">
+                            <div class="form-error" id="fnameError">Your name must be more than 5 characters.</div>
                         </div>
                     </div>
+
+                    <!-- E-MAIL -->
                     <div class="row">
                         <div class="col-25">
-                            <label for="e-mail">E-mail</label>
+                            <label for="email">E-mail</label>
                         </div>
                         <div class="col-75">
-                            <input type="text" id="e-mail" name="e-mail" placeholder="Your e-mail address">
+                            <input type="text" id="email" name="e-mail" placeholder="Your e-mail address">
+                            <div class="form-error" id="emailError">Please enter a valid e-mail address.</div>
                         </div>
                     </div>
+
+                    <!-- SUBJECT -->
                     <div class="row">
                         <div class="col-25">
-                            <label for="country">Subject</label>
+                            <label for="subject">Subject</label>
                         </div>
                         <div class="col-75">
                             <input type="text" id="subject" name="subject" placeholder="Subject of your message">
+                            <div class="form-error" id="subjectError">Your subject must be more than 15 characters.</div>
                         </div>
                     </div>
+                    
+                    <!-- MESSAGE -->
                     <div class="row">
                         <div class="col-25">
-                            <label for="subject">Message</label>
+                            <label for="message">Message</label>
                         </div>
                         <div class="col-75">
                             <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
+                            <div class="form-error" id="messageError">Your message must be more than 25 characters.</div>
                         </div>
                     </div>
+
                     <div class="row">
-                        <input type="submit" value="Submit">
+                    <p class="validation"></p>
+                        <input type="submit" id="button" value="Submit Message">
                     </div>
+
                 </form>
             </div>
 
@@ -125,10 +137,10 @@
                 </p>
             </div>
             <div class="right box">
-                <div class="topic">Subscribe</div>
+                <div class="topic">Newsletter</div>
                 <form action="#">
                     <input type="text" placeholder="Enter e-mail address">
-                    <input type="submit" name="" value="Send">
+                    <input type="submit" name="" value="Subscribe">
                     <div class="media-icons">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -143,6 +155,8 @@
     </footer>
 
     <!-- JS -->
+    <script src="/js/contact.js"></script>
+
     <script>
         function myFunction() {
             var x = document.getElementById("myTopnav");

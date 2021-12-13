@@ -26,7 +26,6 @@
   line-height: 30px;
   width: 450px;
   top: 29px;
-  font-size: 20px;
 }
 
 .ab1-text {
@@ -90,7 +89,6 @@
 
 .openinghours p {
   line-height: 40px;
-  font-size: 20px;
 }
 
 /*-- LOCATION --*/
@@ -104,9 +102,9 @@
 .location a {
   width: 370px;
   line-height: 30px;
-  font-size: 20px;
   color: white;
   font-weight: bold;
+  font-size: 18px;
 }
 
 /*-- ADMISSION --*/
@@ -120,7 +118,6 @@
 .admission p {
   width: 450px;
   line-height: 30px;
-  font-size: 20px;
 }
 
 /* ACCESS */
@@ -134,7 +131,6 @@
 .access p {
   width: 450px;
   line-height: 30px;
-  font-size: 20px;
 }
 
 /*-- SHOP --*/
@@ -148,7 +144,6 @@
 .shop p {
   width: 450px;
   line-height: 30px;
-  font-size: 20px;
 }
 
 /*-- FOOD AND DRINK --*/
@@ -162,5 +157,4 @@
 .foodndrink p {
   width: 450px;
   line-height: 30px;
-  font-size: 20px;
 }

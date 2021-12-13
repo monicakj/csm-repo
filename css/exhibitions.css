@@ -1,4 +1,4 @@
-/*-- EXHIBITIONS --*/
+/*-- SECTIONS --*/
 .exhtitle {
   position: relative;
   margin-top: 72px;
@@ -32,14 +32,15 @@
   margin-bottom: 152px;
 }
 
+/* DETAILS */
 .ex1text,
 .ex2text,
 .ex3text,
 .ex4text,
 .ex5text {
   position: absolute;
-  left: 690px;
-  top: 70px;
+  left: 45%;
+  top: 13%;
 }
 
 .ex3text {
@@ -64,7 +65,6 @@
 .ex5text p {
   width: 450px;
   line-height: 30px;
-  font-size: 20px;
 }
 
 .ex1pic,
@@ -82,50 +82,33 @@
   margin-top: 76px;
 }
 
-.ex1-hyper a,
-.ex2-hyper a,
-.ex3-hyper a,
-.ex4-hyper a,
-.ex5-hyper a {
+.ex1text a,
+.ex2text a,
+.ex3text a,
+.ex4text a,
+.ex5text a {
   position: absolute;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  left: 685px;
-  font-size: 20px;
+  font-size: 18px;
+  margin-top: 10px;
 }
 
-.ex1-hyper a,
-.ex2-hyper a,
-.ex4-hyper a,
-.ex5-hyper a {
+.ex1text a,
+.ex2text a,
+.ex4text a,
+.ex5text a {
   color: #16778c;
 }
 
-.ex3-hyper a {
+.ex3-text a {
   color: white;
 }
 
-.ex1-hyper a:hover,
-.ex2-hyper a:hover,
-.ex3-hyper a:hover,
-.ex4-hyper a:hover,
-.ex5-hyper a:hover {
+.ex1-text a:hover,
+.ex2-text a:hover,
+.ex3-text a:hover,
+.ex4-text a:hover,
+.ex5-text a:hover {
   color: black;
-}
-
-.ex1-hyper a,
-.ex3-hyper a {
-  top: 380px;
-}
-
-.ex2-hyper a {
-  top: 350px;
-}
-
-.ex4-hyper a {
-  top: 320px;
-}
-
-.ex5-hyper a {
-  top: 410px;
 }

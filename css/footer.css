@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
-
 footer {
-  font-family: "Poppins", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   box-sizing: border-box;
   width: 100%;
@@ -28,7 +26,7 @@ footer .content .box {
   transition: all 0.4s ease;
 }
 footer .content .topic {
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 600;
   color: #fff;
   margin-bottom: 16px;
@@ -56,32 +54,34 @@ footer .content .right input[type="text"] {
   background: #000;
   border-radius: 5px;
   padding-left: 10px;
-  font-size: 17px;
   border: 2px solid #222222;
+  font-size: 18px;
 }
 footer .content .right input[type="submit"] {
-  height: 42px;
+  height: 50px;
   width: 100%;
   font-size: 18px;
-  color: #d9d9d9;
+  color: white;
   background: #16778c;
   outline: none;
   border-radius: 5px;
   letter-spacing: 1px;
   cursor: pointer;
-  margin-top: 12px;
+  margin-top: 15px;
   border: 2px solid #16778c;
   transition: all 0.3s ease-in-out;
   font-weight: bold;
   text-transform: uppercase;
+  padding: 10px;
 }
+
 .content .right input[type="submit"]:hover {
   background: none;
   color: white;
   border: 2px solid white;
 }
 footer .content .media-icons a {
-  font-size: 16px;
+  font-size: 20px;
   height: 45px;
   width: 45px;
   display: inline-block;
@@ -109,6 +109,7 @@ footer .bottom a {
 }
 footer a {
   transition: all 0.3s ease;
+  font-size: 18px;
 }
 
 .contact a {
