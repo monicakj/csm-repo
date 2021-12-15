@@ -58,7 +58,7 @@ footer .content .right input[type="text"] {
   font-size: 18px;
 }
 footer .content .right input[type="submit"] {
-  height: 50px;
+  height: 55px;
   width: 100%;
   font-size: 18px;
   color: white;
@@ -73,6 +73,7 @@ footer .content .right input[type="submit"] {
   font-weight: bold;
   text-transform: uppercase;
   padding: 10px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 .content .right input[type="submit"]:hover {

@@ -12,6 +12,14 @@
 .exbox3 {
   position: relative;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.exbox1-text,
+.exbox2-text,
+.exbox3-text {
+  left: 10%;
 }
 
 .exbox1-text h2,
@@ -27,8 +35,8 @@
 .exbox3-text p {
   line-height: 30px;
   /* width: 450px; */
-  width: 500px;
-  margin-top: 20px;
+  width: 600px;
+  margin-top: 10px;
 }
 
 .exbox1-pic,
@@ -38,6 +46,7 @@
   width: 400px;
   height: 350px;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  left: 60%;
 }
 
 /*-- EXBOX1 --*/
@@ -50,12 +59,10 @@
 .exbox1-text {
   position: absolute;
   color: black;
-  margin-left: 10%;
   top: 80px;
 }
 
 .exbox1-pic {
-  left: 900px;
   top: 217px;
 }
 
@@ -68,12 +75,10 @@
 .exbox2-text {
   position: absolute;
   color: white;
-  left: 800px;
   top: 160px;
 }
 
 .exbox2-pic {
-  left: 10%;
   top: 145px;
 }
 
@@ -86,11 +91,37 @@
 .exbox3-text {
   position: absolute;
   color: black;
-  margin-left: 10%;
   top: 199px;
 }
 
 .exbox3-pic {
-  left: 900px;
   top: 140px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1212px) {
+  .exbox1-text,
+  .exbox2-text,
+  .exbox3-text {
+    width: 450px;
+  }
+  .exbox1-text p,
+  .exbox2-text p,
+  .exbox3-text p {
+    width: auto;
+    height: auto;
+  }
+  .exbox1-pic,
+  .exbox2-pic,
+  .exbox3-pic {
+    left: 57%;
+  }
+}
+
+@media (max-width: 900px) {
+  .exbox1,
+  .exbox2,
+  .exbox3 {
+    flex-direction: column;
+  }
 }
