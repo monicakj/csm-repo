@@ -2,7 +2,7 @@
 .hero-img {
   width: 100%;
   height: 600px;
-  /* background-image: url(/images/muhannad-ajjan-sL2BRR1cuvM-unsplash.jpg); */
+  background-image: url(/image/hero-index.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,6 +49,7 @@
   margin-left: 0%;
   padding-left: 5%;
   padding-right: 5%;
+  line-height: 30px;
 }
 
 .explore-text h2 {
