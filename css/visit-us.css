@@ -1,6 +1,6 @@
 /*-- VISIT-US --*/
 .vhero {
-   width: 100%;
+  width: 100%;
   height: 500px;
   background: url(/image/visit-us_hero.png);
   background-position: center;
@@ -11,8 +11,7 @@
 .vs-title {
   margin-top: 60px;
   margin-left: 10%;
-  width: auto;
-  height: auto;
+  width: 0;
 }
 
 .about1 {
@@ -156,10 +155,45 @@
   position: absolute;
   color: black;
   left: 10%;
-  margin-top: 163px;
+  top: 163px;
 }
 
 .foodndrink p {
   width: 450px;
   line-height: 30px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 900px) {
+  .about1 {
+    height: 800px;
+  }
+  .ab1-text, .ab2-text, .admission p, .access p, .shop p, .foodndrink p {
+    width: 90%;
+  }
+  .ab2-text {
+    left: 10%;
+    top: 53%;
+  }
+  .v2, .v3 {
+    height: 700px;
+  }
+  .v4, .v5 {
+    height: 220px;
+  }
+  .location {
+    left: 10%;
+    top: 65%
+  }
+  .access {
+    left: 10%;
+    top: 60%;
+  }
+  .shop, .foodndrink {
+    top: 0;
+  }
+  .v4pic,
+  .v5pic {
+    display: none;
+  }
 }

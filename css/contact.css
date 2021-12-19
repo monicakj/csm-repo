@@ -8,7 +8,7 @@ body {
 
 /* CONTACT HERO */
 .contact-hero {
-    width: 100%;
+  width: 100%;
   height: 500px;
   background-image: url(/image/contact-header.png);
   background-position: center;
@@ -82,7 +82,9 @@ input[type="submit"]:hover {
   color: #16778c;
 }
 
-.contact a, .phone a, .email a {
+.contact a,
+.phone a,
+.email a {
   font-size: 18px;
 }
 

@@ -70,6 +70,9 @@ p {
 }
 
 @media screen and (max-width: 1300px) {
+  .topnav a {
+    display: none;
+  }
   .topnav a.active {
     display: none;
   }

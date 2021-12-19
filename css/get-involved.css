@@ -104,8 +104,8 @@
 .support-img,
 .volunteer-img,
 .internship-img {
-  width: auto;
-  height: 100%;
+  width: fit-content;
+  height: fit-content;
 }
 
 /* MEDIA QUERIES */
@@ -119,4 +119,19 @@
   .gi1-content, .gi2-content, .gi3-content {
     flex-direction: column;
   }
+  .gi1,
+.gi2,
+.gi3 {
+  height: 1000px;
+}
+.gi1-content,
+.gi2-content,
+.gi3-content {
+  top: 5%;
+}
+.gi1-text,
+.gi2-text,
+.gi3-text {
+  margin: 40px 0;
+}
 }
