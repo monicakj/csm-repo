@@ -28,8 +28,6 @@ p {
   font-size: 18px;
 }
 
-/* RESPONSIVE */
-
 /*-- TOPNAV --*/
 .logo img {
   position: absolute;
@@ -41,14 +39,14 @@ p {
   overflow: hidden;
   background: black;
   width: 100%;
-  height: auto;
+  /* height: auto; */
   text-align: center;
   padding-left: 35%;
-  right: 10%;
+  padding-right: 10%;
 }
 
 .topnav a {
-  display: inline-block;
+  display: inline-flex;
   color: white;
   padding: 35px 20px;
   text-decoration: none;
@@ -66,6 +64,37 @@ p {
   color: cyan;
 }
 
-.topnav .icon {
+.topnav a.icon {
+  color: white;
   display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .topnav a.active {
+    display: none;
+  }
+  .topnav a {
+    float: left;
+  }
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 10%;
+    top: 0px;
+  }
+  .topnav.responsive {
+    padding-top: 80px;
+    width: 100%;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
 }

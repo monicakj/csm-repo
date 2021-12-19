@@ -1,8 +1,7 @@
 /*-- EXPLORE --*/
 .exploretitle {
   position: relative;
-  width: 276px;
-  height: 106px;
+  width: fit-content;
   left: 10%;
   margin-top: 72px;
 }
@@ -28,6 +27,8 @@
   font-size: 35px;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   text-transform: uppercase;
+
+
 }
 
 .exbox1-text p,
@@ -37,6 +38,7 @@
   /* width: 450px; */
   width: 600px;
   margin-top: 10px;
+
 }
 
 .exbox1-pic,
@@ -47,6 +49,7 @@
   height: 350px;
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
   left: 60%;
+  
 }
 
 /*-- EXBOX1 --*/
@@ -120,8 +123,43 @@
 
 @media (max-width: 900px) {
   .exbox1,
-  .exbox2,
+.exbox2,
+.exbox3 {
+  width: 100%;
+}
+  .exbox1 {
+    height: 1200px;
+  }
+   .exbox1-pic,
+  .exbox2-pic,
+  .exbox3-pic {
+    left: 10%;
+  }
+  .exbox1-pic {
+   top: 5%;
+  }
+  .exbox1-text {
+    top: 37%;
+    width: 80%;
+  }
+  .exbox2 {
+    height: 1000px;
+  }
+  .exbox2-pic {
+    top: 5%;
+  }
+  .exbox2-text {
+    top: 44%;
+    width: 80%;
+  }
   .exbox3 {
-    flex-direction: column;
+    height: 1000px;
+  }
+  .exbox3-pic {
+    top: 5%;
+  }
+  .exbox3-text {
+    top: 44%;
+    width: 80%;
   }
 }

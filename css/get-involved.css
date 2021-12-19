@@ -109,3 +109,14 @@
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1027px) {
+  .gi1, .gi2, .gi3 {
+    height: 750px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .gi1-content, .gi2-content, .gi3-content {
+    flex-direction: column;
+  }
+}

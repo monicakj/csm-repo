@@ -1,6 +1,11 @@
 /*-- VISIT-US --*/
 .vhero {
-  position: relative;
+   width: 100%;
+  height: 500px;
+  background: url(/image/visit-us_hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .vs-title {
